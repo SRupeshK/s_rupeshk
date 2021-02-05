@@ -1,0 +1,32 @@
+{
+	"name": "FilteredDataJson",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsUserDataFile",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "rksa02container"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"fName": {
+					"type": "string"
+				},
+				"lName": {
+					"type": "string"
+				},
+				"email": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
