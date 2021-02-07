@@ -172,7 +172,7 @@
 								"storedProcedureParameters": {
 									"logText": {
 										"value": {
-											"value": "@item().Value",
+											"value": "@item().name",
 											"type": "Expression"
 										},
 										"type": "String"
