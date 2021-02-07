@@ -11,6 +11,9 @@
 		"userDataparquet_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
 		"adlsUserDataFile_properties_typeProperties_url": {
 			"value": "https://rksa02.dfs.core.windows.net"
 		},

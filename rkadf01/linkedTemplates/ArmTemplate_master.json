@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'userDataparquet'"
 		},
+		"AzureSqlDatabase1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
+		},
 		"adlsUserDataFile_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://rksa02.dfs.core.windows.net"
@@ -51,6 +55,9 @@
 					},
 					"userDataparquet_connectionString": {
 						"value": "[parameters('userDataparquet_connectionString')]"
+					},
+					"AzureSqlDatabase1_connectionString": {
+						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
 					},
 					"adlsUserDataFile_properties_typeProperties_url": {
 						"value": "[parameters('adlsUserDataFile_properties_typeProperties_url')]"
