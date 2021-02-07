@@ -1,0 +1,17 @@
+{
+	"name": "foreach_out01",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsUserDataFile",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			}
+		},
+		"schema": {}
+	}
+}
