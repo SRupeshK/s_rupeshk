@@ -176,6 +176,13 @@
 											"type": "Expression"
 										},
 										"type": "String"
+									},
+									"runId": {
+										"value": {
+											"value": "@pipeline().RunId",
+											"type": "Expression"
+										},
+										"type": "Guid"
 									}
 								}
 							},
